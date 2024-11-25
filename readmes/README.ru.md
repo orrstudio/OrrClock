@@ -15,7 +15,20 @@
 
 </div>
 
-Адаптивные цифровые часы с современным минималистичным дизайном, разработанные с использованием Kivy Framework.
+Адаптивные цифровые часы с современным минималистичным дизайном, разработанные с использованием фреймворка Kivy.
+
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Особенности
 

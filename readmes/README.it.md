@@ -15,9 +15,20 @@
 
 </div>
 
-Orologio digitale adattivo con design minimalista moderno, sviluppato utilizzando il framework Kivy.
+Un orologio digitale adattivo con un design moderno e minimalista, sviluppato utilizzando il framework Kivy.
 
-[🇬🇧 English Version](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Caratteristiche
 

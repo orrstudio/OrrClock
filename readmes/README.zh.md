@@ -15,9 +15,20 @@
 
 </div>
 
-使用 Kivy 框架开发的具有现代简约设计的自适应数字时钟。
+一个使用Kivy框架开发的具有现代简约设计的自适应数字时钟。
 
-[🇬🇧 English Version](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## 特点
 

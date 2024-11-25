@@ -15,9 +15,20 @@
 
 </div>
 
-Kivyフレームワークを使用して開発された、モダンでミニマルなデザインの適応型デジタル時計。
+Kivyフレームワークを使用して開発された、モダンでミニマリストなデザインのアダプティブデジタル時計です。
 
-[🇬🇧 English Version](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## 特徴
 

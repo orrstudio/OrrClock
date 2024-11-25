@@ -17,6 +17,19 @@
 
 Kivy Framework kullanılarak geliştirilmiş modern minimalist tasarıma sahip adaptif dijital saat.
 
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
+
 ## Özellikler
 
 - Dikey ve yatay yönlendirme için otomatik arayüz uyarlaması

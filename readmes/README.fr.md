@@ -15,9 +15,20 @@
 
 </div>
 
-Horloge numérique adaptative avec un design minimaliste moderne, développée avec le framework Kivy.
+Une horloge numérique adaptative avec un design moderne et minimaliste, développée avec le framework Kivy.
 
-[🇬🇧 Version Anglaise](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Caractéristiques
 

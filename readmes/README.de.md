@@ -15,9 +15,20 @@
 
 </div>
 
-Adaptive digitale Uhr mit modernem minimalistischem Design, entwickelt mit dem Kivy Framework.
+Eine adaptive digitale Uhr mit modernem, minimalistischem Design, entwickelt mit dem Kivy Framework.
 
-[🇬🇧 English Version](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Funktionen
 

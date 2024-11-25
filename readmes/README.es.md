@@ -15,9 +15,20 @@
 
 </div>
 
-Reloj digital adaptativo con diseño minimalista moderno, desarrollado utilizando el framework Kivy.
+Un reloj digital adaptativo con un diseño moderno y minimalista, desarrollado utilizando el framework Kivy.
 
-[🇬🇧 Versión en Inglés](README.md)
+[🇬🇧 English](../README.md) |  
+[🇦🇿 Azərbaycan](README.az.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Características
 

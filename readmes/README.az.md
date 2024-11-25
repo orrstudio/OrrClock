@@ -15,9 +15,20 @@
 
 </div>
 
-Kivy Framework istifadə edərək hazırlanmış müasir minimalist dizaynlı adaptiv rəqəmsal saat.
+Kivy framework istifadə edərək hazırlanmış müasir və minimalist dizayna malik adaptiv rəqəmsal saat.
 
-[🇬🇧 İngiliscə versiya](README.md)
+[🇬🇧 English](../README.md) |  
+[🇹🇷 Türkçe](README.tr.md) |  
+[🇸🇦 العربية](README.ar.md) |  
+[🇮🇷 فارسی](README.fa.md) |  
+[🇷🇺 Русский](README.ru.md) |  
+[🇩🇪 Deutsch](README.de.md) |  
+[🇮🇹 Italiano](README.it.md) |  
+[🇪🇸 Español](README.es.md) |  
+[🇫🇷 Français](README.fr.md) |  
+[🇯🇵 日本語](README.ja.md) |  
+[🇨🇳 中文](README.zh.md) |  
+[🇮🇳 हिंदी](README.hi.md)
 
 ## Xüsusiyyətlər
 
