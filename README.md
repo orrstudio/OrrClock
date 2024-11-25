@@ -69,17 +69,18 @@ The application is easily customizable:
 - Modular architecture with UI component separation
 
 ## Project Structure
-
+```
 OrrClock/
-├── main.py                 # Main application file  
-├── ui/                     # UI components  
-│   ├── base_clock.py       # Base clock class  
-│   ├── landscape_clock.py  # Landscape orientation  
-│   ├── portrait_clock.py   # Portrait orientation  
-│   └── settings_window.py  # Settings window  
-├── data/                   # Additional data  
-├── fonts/                  # Fonts  
-└── requirements.txt        # Dependencies  
+├── main.py                 # Main application file
+├── ui/                     # UI components
+│   ├── base_clock.py       # Base clock class
+│   ├── landscape_clock.py  # Landscape orientation
+│   ├── portrait_clock.py   # Portrait orientation
+│   └── settings_window.py  # Settings window
+├── data/                   # Additional data
+├── fonts/                  # Fonts
+└── requirements.txt        # Dependencies
+```
 
 ## Installation
 
