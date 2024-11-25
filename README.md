@@ -82,6 +82,14 @@ OrrClock/
 └── requirements.txt        # Dependencies
 ```
 
+## Branch Structure
+
+- `main` - Main branch for stable releases
+- `develop` - Development branch for new features and improvements
+
+All new features and changes should be developed in feature branches created from `develop` branch.
+When the feature is ready, create a pull request to merge it into the `develop` branch.
+
 ## Installation
 
 1. Clone the repository:
