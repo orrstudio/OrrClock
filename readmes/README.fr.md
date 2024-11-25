@@ -68,18 +68,18 @@ L'application est facilement personnalisable :
 - Kivy 2.2.1
 - Architecture modulaire avec séparation des composants UI
 
-## Structure du Projet
+## Structure du projet
 
 OrrClock/
-├── main.py                 # Fichier principal de l'application  
-├── ui/                     # Composants UI  
-│   ├── base_clock.py       # Classe de base de l'horloge  
-│   ├── landscape_clock.py  # Orientation paysage  
-│   ├── portrait_clock.py   # Orientation portrait  
-│   └── settings_window.py  # Fenêtre de paramètres  
-├── data/                   # Données supplémentaires  
-├── fonts/                  # Polices  
-└── requirements.txt        # Dépendances  
+├── main.py                 # Fichier principal de l'application
+├── ui/                     # Composants UI
+│   ├── base_clock.py       # Classe d'horloge de base
+│   ├── landscape_clock.py  # Orientation paysage
+│   ├── portrait_clock.py   # Orientation portrait
+│   └── settings_window.py  # Fenêtre des paramètres
+├── data/                   # Données supplémentaires
+├── fonts/                  # Polices
+└── requirements.txt        # Dépendances
 
 ## Installation
 

@@ -70,16 +70,18 @@ Die Anwendung ist leicht anpassbar:
 
 ## Projektstruktur
 
+```
 OrrClock/
-├── main.py                 # Hauptanwendungsdatei  
-├── ui/                     # UI-Komponenten  
-│   ├── base_clock.py       # Basis-Uhrenklasse  
-│   ├── landscape_clock.py  # Querformat  
-│   ├── portrait_clock.py   # Hochformat  
-│   └── settings_window.py  # Einstellungsfenster  
-├── data/                   # Zusätzliche Daten  
-├── fonts/                  # Schriftarten  
-└── requirements.txt        # Abhängigkeiten  
+├── main.py                 # Hauptanwendungsdatei
+├── ui/                     # UI-Komponenten
+│   ├── base_clock.py       # Basis-Uhrenklasse
+│   ├── landscape_clock.py  # Querformat
+│   ├── portrait_clock.py   # Hochformat
+│   └── settings_window.py  # Einstellungsfenster
+├── data/                   # Zusätzliche Daten
+├── fonts/                  # Schriftarten
+└── requirements.txt        # Abhängigkeiten
+```
 
 ## Installation
 

@@ -70,16 +70,18 @@ Uygulama kolayca özelleştirilebilir:
 
 ## Proje Yapısı
 
+```
 OrrClock/
-├── main.py                 # Ana uygulama dosyası  
-├── ui/                     # UI bileşenleri  
-│   ├── base_clock.py       # Temel saat sınıfı  
-│   ├── landscape_clock.py  # Yatay yönlendirme  
-│   ├── portrait_clock.py   # Dikey yönlendirme  
-│   └── settings_window.py  # Ayarlar penceresi  
-├── data/                   # Ek veriler  
-├── fonts/                  # Yazı tipleri  
-└── requirements.txt        # Bağımlılıklar  
+├── main.py                 # Ana uygulama dosyası
+├── ui/                     # UI bileşenleri
+│   ├── base_clock.py       # Temel saat sınıfı
+│   ├── landscape_clock.py  # Yatay yönlendirme
+│   ├── portrait_clock.py   # Dikey yönlendirme
+│   └── settings_window.py  # Ayarlar penceresi
+├── data/                   # Ek veriler
+├── fonts/                  # Yazı tipleri
+└── requirements.txt        # Bağımlılıklar
+```
 
 ## Kurulum
 

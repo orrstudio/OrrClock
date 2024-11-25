@@ -70,16 +70,18 @@ OrrClock فقط یک ساعت نیست، یک برنامه چندمنظوره ن
 
 ## ساختار پروژه
 
+```
 OrrClock/
-├── main.py                 # فایل اصلی برنامه  
-├── ui/                     # اجزای رابط کاربری  
-│   ├── base_clock.py       # کلاس پایه ساعت  
-│   ├── landscape_clock.py  # جهت افقی  
-│   ├── portrait_clock.py   # جهت عمودی  
-│   └── settings_window.py  # پنجره تنظیمات  
-├── data/                   # داده‌های اضافی  
-├── fonts/                  # فونت‌ها  
-└── requirements.txt        # وابستگی‌ها  
+├── main.py                 # فایل اصلی برنامه
+├── ui/                     # اجزای رابط کاربری
+│   ├── base_clock.py       # کلاس پایه ساعت
+│   ├── landscape_clock.py  # جهت افقی
+│   ├── portrait_clock.py   # جهت عمودی
+│   └── settings_window.py  # پنجره تنظیمات
+├── data/                   # داده‌های اضافی
+├── fonts/                  # فونت‌ها
+└── requirements.txt        # وابستگی‌ها
+```
 
 ## نصب
 

@@ -70,16 +70,18 @@ Tətbiq asanlıqla fərdiləşdirilə bilər:
 
 ## Layihə Strukturu
 
+```
 OrrClock/
-├── main.py                 # Əsas tətbiq faylı  
-├── ui/                     # UI komponentləri  
-│   ├── base_clock.py       # Baza saat sinifi  
-│   ├── landscape_clock.py  # Landşaft istiqaməti  
-│   ├── portrait_clock.py   # Portret istiqaməti  
-│   └── settings_window.py  # Parametrlər pəncərəsi  
-├── data/                   # Əlavə məlumatlar  
-├── fonts/                  # Şriftlər  
-└── requirements.txt        # Asılılıqlar  
+├── main.py                 # Əsas tətbiq faylı
+├── ui/                     # UI komponentləri
+│   ├── base_clock.py       # Baza saat sinifi
+│   ├── landscape_clock.py  # Üfüqi istiqamət
+│   ├── portrait_clock.py   # Şaquli istiqamət
+│   └── settings_window.py  # Parametrlər pəncərəsi
+├── data/                   # Əlavə məlumatlar
+├── fonts/                  # Şriftlər
+└── requirements.txt        # Asılılıqlar
+```
 
 ## Quraşdırma
 

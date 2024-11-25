@@ -72,16 +72,18 @@ OrrClock ليست مجرد ساعة، بل هي تطبيق متعدد الوظا
 
 ## هيكل المشروع
 
+```
 OrrClock/
-├── main.py                 # ملف التطبيق الرئيسي  
-├── ui/                     # مكونات واجهة المستخدم  
-│   ├── base_clock.py       # فئة الساعة الأساسية  
-│   ├── landscape_clock.py  # الاتجاه الأفقي  
-│   ├── portrait_clock.py   # الاتجاه الرأسي  
-│   └── settings_window.py  # نافذة الإعدادات  
-├── data/                   # البيانات الإضافية  
-├── fonts/                  # الخطوط  
-└── requirements.txt        # التبعيات  
+├── main.py                 # ملف التطبيق الرئيسي
+├── ui/                     # مكونات واجهة المستخدم
+│   ├── base_clock.py       # الفئة الأساسية للساعة
+│   ├── landscape_clock.py  # الاتجاه الأفقي
+│   ├── portrait_clock.py   # الاتجاه العمودي
+│   └── settings_window.py  # نافذة الإعدادات
+├── data/                   # البيانات الإضافية
+├── fonts/                  # الخطوط
+└── requirements.txt        # التبعيات
+```
 
 ## التثبيت
 

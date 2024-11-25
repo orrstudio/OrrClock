@@ -70,16 +70,18 @@ OrrClockは単なる時計ではなく、様々なシナリオで使用できる
 
 ## プロジェクト構造
 
+```
 OrrClock/
-├── main.py                 # メインアプリケーションファイル  
-├── ui/                     # UIコンポーネント  
-│   ├── base_clock.py       # 時計基本クラス  
-│   ├── landscape_clock.py  # 横向き  
-│   ├── portrait_clock.py   # 縦向き  
-│   └── settings_window.py  # 設定ウィンドウ  
-├── data/                   # 追加データ  
-├── fonts/                  # フォント  
-└── requirements.txt        # 依存関係  
+├── main.py                 # メインアプリケーションファイル
+├── ui/                     # UIコンポーネント
+│   ├── base_clock.py       # 基本時計クラス
+│   ├── landscape_clock.py  # 横向き
+│   ├── portrait_clock.py   # 縦向き
+│   └── settings_window.py  # 設定ウィンドウ
+├── data/                   # 追加データ
+├── fonts/                  # フォント
+└── requirements.txt        # 依存関係
+```
 
 ## インストール
 
