@@ -17,8 +17,18 @@
 
 Adaptive digital clock with a modern minimalist design, developed using the Kivy Framework.
 
-[🇹🇷 Türkçe](README.tr.md)  
-[🇷🇺 Русская версия](README.ru.md)  
+[🇦🇿 Azərbaycan](readmes/README.az.md) |  
+[🇹🇷 Türkçe](readmes/README.tr.md) |  
+[🇸🇦 العربية](readmes/README.ar.md)  
+[🇮🇷 فارسی](readmes/README.fa.md) |  
+[🇷🇺 Русский](readmes/README.ru.md) |  
+[🇩🇪 Deutsch](readmes/README.de.md) |  
+[🇮🇹 Italiano](readmes/README.it.md) |  
+[🇪🇸 Español](readmes/README.es.md) |  
+[🇫🇷 Français](readmes/README.fr.md) |  
+[🇯🇵 日本語](readmes/README.ja.md) |  
+[🇨🇳 中文](readmes/README.zh.md) |  
+[🇮🇳 हिंदी](readmes/README.hi.md) |  
 
 ## Features
 
