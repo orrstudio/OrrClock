@@ -114,6 +114,26 @@ python main.py
 - Minimum 512MB RAM
 - Python ve Kivy'yi destekleyen herhangi bir işletim sistemi (Windows, Linux, macOS)
 
+## Buildozer ile Android için APK Oluşturma
+
+Buildozer kullanarak APK oluşturmak için şu adımları izleyin:
+
+1. **Buildozer'i Yükleyin**:
+   [Buildozer Belgelerinden](https://buildozer.readthedocs.io/en/latest/installation.html) yükleme talimatlarını takip edin.
+
+2. **APK Oluşturun**:
+   APK oluşturmak için aşağıdaki komutu çalıştırın:
+   ```bash
+   buildozer android debug
+   ```
+   Oluşturulan APK, projenizin `bin/` dizininde bulunacaktır.
+
+3. **Cihaza Yükleme** (isteğe bağlı):
+   Bağlı bir Android cihazınız varsa, APK'yı doğrudan yüklemek için şu komutu kullanabilirsiniz:
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## Lisans
 
 MIT License

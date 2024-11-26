@@ -113,6 +113,26 @@ python main.py
 - Minimum 512MB RAM
 - Any operating system supporting Python and Kivy (Windows, Linux, macOS)
 
+## Building APK for Android with Buildozer
+
+To build an APK using Buildozer, follow these steps:
+
+1. **Install Buildozer**:
+   Follow the installation instructions from the [Buildozer Documentation](https://buildozer.readthedocs.io/en/latest/installation.html).
+
+2. **Build the APK**:
+   Run the following command to build the APK:
+   ```bash
+   buildozer android debug
+   ```
+   The built APK will be located in the `bin/` directory of your project.
+
+3. **Deploy to a device** (optional):
+   If you have an Android device connected, you can deploy the APK directly using:
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## Branch Protection Test
 This change is made through a feature branch and will be merged via pull request.
 
