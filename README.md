@@ -113,6 +113,12 @@ python main.py
 - Minimum 512MB RAM
 - Any operating system supporting Python and Kivy (Windows, Linux, macOS)
 
+## Branch Protection Test
+This change is made through a feature branch and will be merged via pull request.
+
+## Testing Branch Protection
+This is a test commit to verify branch protection rules.
+
 ## Test Protection
 This is a test commit to verify branch protection rules.
 
