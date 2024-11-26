@@ -114,6 +114,26 @@ python main.py
 - 最小 512MB RAM
 - 任何支持 Python 和 Kivy 的操作系统（Windows、Linux、macOS）
 
+## 使用Buildozer为Android创建APK
+
+要使用Buildozer创建APK，请按照以下步骤操作：
+
+1. **安装Buildozer**：
+   请按照[Buildozer文档](https://buildozer.readthedocs.io/en/latest/installation.html)中的安装说明进行操作。
+
+2. **创建APK**：
+   运行以下命令以创建APK：
+   ```bash
+   buildozer android debug
+   ```
+   创建的APK将位于项目的`bin/`目录中。
+
+3. **部署到设备**（可选）：
+   如果您有连接的Android设备，可以使用以下命令直接部署APK：
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## 许可证
 
 MIT License

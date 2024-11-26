@@ -107,6 +107,26 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Buildozerを使用してAndroid用APKを作成する
+
+Buildozerを使用してAPKを作成するには、次の手順に従います。
+
+1. **Buildozerをインストールする**:
+   [Buildozerドキュメント](https://buildozer.readthedocs.io/en/latest/installation.html)からインストール手順に従ってください。
+
+2. **APKを作成する**:
+   次のコマンドを実行してAPKを作成します。
+   ```bash
+   buildozer android debug
+   ```
+   作成されたAPKは、プロジェクトの`bin/`ディレクトリに配置されます。
+
+3. **デバイスにデプロイする** (オプション):
+   Androidデバイスが接続されている場合は、次のコマンドを使用してAPKを直接デプロイできます。
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## システム要件
 
 - Python 3.8以上

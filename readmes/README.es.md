@@ -105,6 +105,26 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Construcción de APK para Android con Buildozer
+
+Para construir un APK utilizando Buildozer, siga estos pasos:
+
+1. **Instalar Buildozer**:
+   Siga las instrucciones de instalación de la [Documentación de Buildozer](https://buildozer.readthedocs.io/en/latest/installation.html).
+
+2. **Construir el APK**:
+   Ejecute el siguiente comando para construir el APK:
+   ```bash
+   buildozer android debug
+   ```
+   El APK construido se ubicará en el directorio `bin/` de su proyecto.
+
+3. **Desplegar en un dispositivo** (opcional):
+   Si tiene un dispositivo Android conectado, puede desplegar el APK directamente usando:
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## Requisitos del Sistema
 
 - Python 3.8 o superior

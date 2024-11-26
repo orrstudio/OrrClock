@@ -114,6 +114,26 @@ python main.py
 - Minimum 512MB RAM
 - Python və Kivy dəstəkləyən istənilən əməliyyat sistemi (Windows, Linux, macOS)
 
+## Buildozer ilə Android üçün APK qurmaq
+
+Buildozer istifadə edərək APK qurmaq üçün bu addımları izləyin:
+
+1. **Buildozer'i quraşdırın**:
+   [Buildozer sənədləşməsindən](https://buildozer.readthedocs.io/en/latest/installation.html) quraşdırma təlimatlarını izləyin.
+
+2. **APK qurun**:
+   APK qurmaq üçün aşağıdakı əmri çalışdırın:
+   ```bash
+   buildozer android debug
+   ```
+   Qurulmuş APK layihənizin `bin/` qovluğunda yerləşəcək.
+
+3. **Cihaza yerləşdirin** (isteğe bağlı):
+   Əgər bir Android cihazı qoşulubsa, APK-ni birbaşa yerləşdirmək üçün aşağıdakı əmrdən istifadə edə bilərsiniz:
+   ```bash
+   buildozer android deploy run
+   ```
+
 ## Lisenziya
 
 MIT License
