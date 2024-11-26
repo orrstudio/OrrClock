@@ -2,11 +2,6 @@
 import kivy
 kivy.require('2.2.1')
 
-# import logging
-# logging.basicConfig(level=logging.DEBUG,
-#                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# logger = logging.getLogger(__name__)
-
 from kivy.app import App
 from kivy.core.window import Window
 from kivy.uix.floatlayout import FloatLayout
@@ -32,7 +27,6 @@ class ClockApp(App):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.clock_label = None
         self.current_orientation = None
         
     def build(self):
@@ -140,18 +134,15 @@ class ClockApp(App):
 
     def update_color(self, color_name):
         """Обновление цвета часов"""
-        try:
-            if hasattr(self, 'clock_widget'):
-                # Преобразуем название цвета в нижний регистр
-                color_key = color_name.lower()
-                color_tuple = self.colors.get(color_key, (1, 1, 1, 1))
-                
-                if isinstance(self.clock_widget, PortraitClockLayout):
-                    self.clock_widget.clock_label.color = color_tuple
-                else:
-                    self.clock_widget.color = color_tuple
-        except Exception as e:
-            logger.error(f"Error updating color: {e}")
+        if hasattr(self, 'clock_widget'):
+            # Преобразуем название цвета в нижний регистр
+            color_key = color_name.lower()
+            color_tuple = self.colors.get(color_key, (1, 1, 1, 1))
+            
+            if isinstance(self.clock_widget, PortraitClockLayout):
+                self.clock_widget.clock_label.color = color_tuple
+            else:
+                self.clock_widget.color = color_tuple
 
 if __name__ == "__main__":
     ClockApp().run()
