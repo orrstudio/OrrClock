@@ -146,10 +146,10 @@ class SettingsWindow(ModalView):
         self.active_button = None  # Инициализируем как None
         
         # Настройка размеров окна
-        self.size_hint = (None, None)
-        self.width = min(dp(400), Window.width * 0.95)
-        self.height = min(dp(500), Window.height * 0.95)
-        self.pos_hint = {'center_x': 0.5, 'top': 0.95}
+        # Настройка размеров окна
+        self.size_hint = (1, 1)  # Полный размер экрана
+        self.width = Window.width
+        self.height = Window.height
         
         # Основной layout
         self.layout = BoxLayout(
