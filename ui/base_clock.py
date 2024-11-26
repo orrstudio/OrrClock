@@ -1,7 +1,5 @@
 from kivy.uix.label import Label
 from kivy.core.window import Window
-from kivy.animation import Animation
-from kivy.clock import Clock
 from logic.time_handler import TimeHandler
 
 class BaseClockLabel(Label):

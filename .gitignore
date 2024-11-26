@@ -3,7 +3,7 @@
 bin/
 
 # Virtual environment
-venvMihrEzan/
+venv/
 
 # Build artifacts
 **/*.pyc

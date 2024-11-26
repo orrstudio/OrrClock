@@ -1,5 +1,4 @@
 # ui/landscape_clock.py
-from kivy.core.window import Window
 from ui.base_clock import BaseClockLabel
 from logic.time_handler import TimeHandler
 from data.database import SettingsDatabase
