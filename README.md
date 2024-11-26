@@ -1,4 +1,4 @@
-# OrrClock
+ # OrrClock
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/83289c8e-472e-44d9-8bc7-eb27bec46763" alt="OrrClock Logo" width="800"/>
@@ -82,14 +82,6 @@ OrrClock/
 └── requirements.txt        # Dependencies
 ```
 
-## Branch Structure
-
-- `main` - Main branch for stable releases
-- `develop` - Development branch for new features and improvements
-
-All new features and changes should be developed in feature branches created from `develop` branch.
-When the feature is ready, create a pull request to merge it into the `develop` branch.
-
 ## Installation
 
 1. Clone the repository:
@@ -120,6 +112,15 @@ python main.py
 - Kivy 2.2.1
 - Minimum 512MB RAM
 - Any operating system supporting Python and Kivy (Windows, Linux, macOS)
+
+## Branch Protection Test
+This change is made through a feature branch and will be merged via pull request.
+
+## Testing Branch Protection
+This is a test commit to verify branch protection rules.
+
+## Test Protection
+This is a test commit to verify branch protection rules.
 
 ## License
 
