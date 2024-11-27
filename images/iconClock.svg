@@ -10,7 +10,7 @@
    xml:space="preserve"
    sodipodi:docname="iconClock.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   inkscape:export-filename="presplash.png"
+   inkscape:export-filename="../icons/icon.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -103,7 +103,7 @@
        r="64"
        gradientUnits="userSpaceOnUse"
        gradientTransform="scale(4)" /></defs><rect
-     style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd"
+     style="display:none;fill:#000000;fill-opacity:1;fill-rule:evenodd"
      id="rect1-5"
      width="512"
      height="512"
