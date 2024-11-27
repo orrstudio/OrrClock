@@ -133,6 +133,91 @@ To build an APK using Buildozer, follow these steps:
    buildozer android deploy run
    ```
 
+## Building Standalone Executables and Packages
+
+### Linux Packaging
+
+#### PyInstaller (Standalone Executable)
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Create executable:
+```bash
+pyinstaller --onefile --windowed --add-data "fonts:fonts" --add-data "icons:icons" main.py
+```
+
+#### AppImage
+1. Install `appimagetool`:
+```bash
+wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+chmod +x appimagetool-x86_64.AppImage
+```
+
+2. Create AppDir structure:
+```bash
+mkdir -p OrrClock.AppDir/usr/bin
+mkdir -p OrrClock.AppDir/usr/share/applications
+mkdir -p OrrClock.AppDir/usr/share/icons
+```
+
+3. Copy files and create .desktop file
+```bash
+cp dist/main OrrClock.AppDir/usr/bin/orrclock
+cp icons/iconEzanClock.svg OrrClock.AppDir/usr/share/icons/orrclock.svg
+```
+
+4. Create OrrClock.desktop:
+```
+[Desktop Entry]
+Name=OrrClock
+Exec=orrclock
+Icon=orrclock
+Type=Application
+Categories=Utility;Clock;
+```
+
+5. Generate AppImage:
+```bash
+./appimagetool-x86_64.AppImage OrrClock.AppDir
+```
+
+### Windows Packaging
+
+#### PyInstaller (Executable)
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Create executable:
+```bash
+pyinstaller --onefile --windowed --add-data "fonts;fonts" --add-data "icons;icons" main.py
+```
+
+#### Inno Setup (Installer)
+1. Download and install [Inno Setup](https://jrsoftware.org/isdl.php)
+2. Create a script (OrrClock_Installer.iss):
+```
+[Setup]
+AppName=OrrClock
+AppVersion=1.0.0
+DefaultDirName={pf}\OrrClock
+DefaultGroupName=OrrClock
+OutputBaseFilename=OrrClock_Installer
+
+[Files]
+Source: "dist\main.exe"; DestDir: "{app}"; DestName: "OrrClock.exe"
+Source: "icons\*"; DestDir: "{app}\icons"
+Source: "fonts\*"; DestDir: "{app}\fonts"
+
+[Icons]
+Name: "{group}\OrrClock"; Filename: "{app}\OrrClock.exe"
+```
+
+3. Compile the installer using Inno Setup Compiler
+
 ## License
 
 MIT License
