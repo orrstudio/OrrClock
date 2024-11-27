@@ -133,15 +133,6 @@ To build an APK using Buildozer, follow these steps:
    buildozer android deploy run
    ```
 
-## Branch Protection Test
-This change is made through a feature branch and will be merged via pull request.
-
-## Testing Branch Protection
-This is a test commit to verify branch protection rules.
-
-## Test Protection
-This is a test commit to verify branch protection rules.
-
 ## License
 
 MIT License
